@@ -8,34 +8,32 @@ A music based platform game
 
 ## Development
 
-Reference:
+References:
 
-- Basic Git operations: [The Tutorial](https://git-scm.com/docs/gittutorial) (Only basics are required)
+- Basic Git operations: [The Tutorial](https://git-scm.com/docs/gittutorial) (Only the basics are required)
 
 - Use Git with UE4 projects: [Unreal Wiki](https://wiki.unrealengine.com/Git_source_control_(Tutorial)) (Important steps are described below)
 
 ### Get Started
 
-1. Clone the repo:
+1. [Git LFS](https://git-lfs.github.com/) is used to track binary files in this repo, install it first: [Guide](https://help.github.com/articles/installing-git-large-file-storage)
+
+2. Clone the repo:
 
    ```
    git clone https://github.com/zhudhjen/RhythmJump.git
    ```
 
-2. Use [Git LFS](https://git-lfs.github.com/) to track binary file.
+3. Track binary file types with Git LFS (extend it if more binary types are introduced, e.g. mp3/jpg/png):
 
-   1.  Install Git LFS ([Guide](https://help.github.com/articles/installing-git-large-file-storage)).
+   ```shell
+   git lfs install
+   git lfs track "*.uasset"
+   git lfs track "*.umap"
+   git lfs track "*.wav"
+   ```
 
-   2. Track binary file types with Git LFS (extend it if more binary types are introduced, e.g. mp3/jpg/png):
-
-      ```shell
-      git lfs install
-      git lfs track "*.uasset"
-      git lfs track "*.umap"
-      git lfs track "*.wav"
-      ```
-
-3. You may now perform normal git operations on this repo.
+4. You may now perform normal git operations on this repo.
 
 ### Configure Unreal Engine Editor (Optional)
 
@@ -47,6 +45,7 @@ Reference:
 
 ### Notes
 
+- As an alternative to the native git command line tool, the [GitHub Desktop](https://desktop.github.com/) can be used as a GUI tool if you prefer. Note that you may still need to use the native command line tool to complete configuring Git LFS. 
 - Default `.gitignore` file is used, provided by GitHub. Modify it if needed.
 - You may still need to use the command line tools or Git GUI to perform the push/pull/branch/merge operations since I didn't find it in the editor plugin.
 - Whatever method you are using, remember to perform `git pull`  before start working to avoid merge conflicts. Also, try to communicate with the team when you are going to make a change,  pull/commit/push frequently and make everyone happy.
