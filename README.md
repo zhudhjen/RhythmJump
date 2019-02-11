@@ -38,16 +38,16 @@ References:
 ### Configure Unreal Engine Editor (Optional)
 
 1. Open the UE4 project `RhythmJump.uproject`.
-2. Open `Source Control` in toolbar and select `Change Source Control Settings ...`.
-3. In the pop-up window, switch the provider to `Git (beta version)` and confirm the path of git executable is correctly filled in `Git Path` .
-4. Select `Accept Settings` and its done.
-5. You can now add/submit(commit) files in UE4 Editor. 
+2. The first time you open the project, there may be a prompt tells you that you need to recompile the plugin to continue, press yes. Wait until the compilation finish.
+3. Open `Source Control` in toolbar and select `Change Source Control Settings ...`.
+4. In the pop-up window, switch the provider to `Git (beta version)` and confirm the path of git executable is correctly filled in `Git Path` .
+5. Select `Accept Settings` and its done.
+6. You can now add/submit(commit)/pull/push files in UE4 Editor. 
 
 ### Notes
 
 - As an alternative to the native git command line tool, the [GitHub Desktop](https://desktop.github.com/) can be used as a GUI tool if you prefer. Note that you may still need to use the native command line tool to complete configuring Git LFS. 
 - Default `.gitignore` file is used, provided by GitHub. Modify it if needed.
-- You may still need to use the command line tools or Git GUI to perform the push/pull/branch/merge operations since I didn't find it in the editor plugin.
 - Whatever method you are using, remember to perform `git pull`  before start working to avoid merge conflicts. Also, try to communicate with the team when you are going to make a change,  pull/commit/push frequently and make everyone happy.
 
 ## Contributors
