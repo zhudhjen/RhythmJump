@@ -35,11 +35,13 @@ References:
 
 4. You may now perform normal git operations on this repo.
 
-### Configure Unreal Engine Editor (Optional)
+### Configure Unreal Editor (Optional)
+
+The [UE4 Git Source Control Plugin](https://github.com/SRombauts/UE4GitPlugin) is used in the UE4 Editor to manage git.
 
 1. Open the UE4 project `RhythmJump.uproject`.
 2. The first time you open the project, there may be a prompt tells you that you need to recompile the plugin to continue, click yes. Wait until the compilation finish and the project will automatically launch. 
-   - I compiled it successfully without problem with UE4.21.2 and macOS 10.13.6 
+   - Compilation succeeded with UE4.21.2 and macOS 10.13.6 
 3. Open `Source Control` in toolbar and select `Change Source Control Settings ...`.
 4. In the pop-up window, switch the provider to `Git LFS 2` and confirm the path of git executable is correctly filled in `Git Path` .
 5. Select `Accept Settings` .
