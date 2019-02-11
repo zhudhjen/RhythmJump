@@ -54,5 +54,5 @@ Reference:
 - Dinghan Zhu
 
 - Qiming Du
-- Juanrui Zhao
+- Junrui Zhao
 - Chuanzhe Li
