@@ -45,7 +45,7 @@ Reference:
 
 - Default `.gitignore` file is used, provided by GitHub. Modify it if needed.
 - You may still need to use the command line tools or Git GUI to perform the push/pull/branch/merge operations since I didn't find it in the editor plugin.
-- Whatever method you are using, remember to perform `git pull`  before start working to prevent merge conflicts.
+- Whatever method you are using, remember to perform `git pull`  before start working to avoid merge conflicts. Also, try to communicate with the team when you are going to make a change,  pull/commit/push frequently and make everyone happy.
 
 ## Contributors
 
