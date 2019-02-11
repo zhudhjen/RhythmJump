@@ -16,7 +16,11 @@ Reference:
 
 ### Get Started
 
-1. Clone the repo.
+1. Clone the repo:
+
+   ```
+   git clone https://github.com/zhudhjen/RhythmJump.git
+   ```
 
 2. Use [Git LFS](https://git-lfs.github.com/) to track binary file.
 
