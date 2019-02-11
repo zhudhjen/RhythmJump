@@ -40,8 +40,8 @@ References:
 1. Open the UE4 project `RhythmJump.uproject`.
 2. The first time you open the project, there may be a prompt tells you that you need to recompile the plugin to continue, press yes. Wait until the compilation finish.
 3. Open `Source Control` in toolbar and select `Change Source Control Settings ...`.
-4. In the pop-up window, switch the provider to `Git (beta version)` and confirm the path of git executable is correctly filled in `Git Path` .
-5. Select `Accept Settings` and its done.
+4. In the pop-up window, switch the provider to `Git LFS 2` and confirm the path of git executable is correctly filled in `Git Path` .
+5. Select `Accept Settings` .
 6. You can now add/submit(commit)/pull/push files in UE4 Editor. 
 
 ### Notes
